@@ -1,1 +1,2 @@
-echo Hello, World
+name='Bash'
+echo Hello, $name
