@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Site</title>
+        <link href="../css/main.css" rel="stylesheet">
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <div class="block_menu">
+        <ul>
+            <li><a href="../index.html">page 1</a></li>
+            <li><a href="../page/xss.html">XSS</a></li>
+        </ul>
+    </div>
+    <div class="block1">
+        <script>alert("Alert")</script>
+    </div>
+    </body>
+</html>
