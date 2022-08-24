@@ -6,7 +6,12 @@
         <meta charset="utf-8">
     </head>
     <body>
-    <div class="block_menu"><a href="page/page1.html">page 1</a></div>
+    <div class="block_menu">
+        <ul>
+            <li><a href="../index.html">page 1</a></li>
+            <li><a href="page/xss.html">XSS</a></li>
+        </ul>
+    </div>
     <div class="block1">
         <form action="https://yandex.ru/search/&text=">
             <input type="text" name="text"><br>
